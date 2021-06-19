@@ -1,12 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 24/09/2018 04:43
+  	Creation date: 02/03/2021 06:18
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -24,22 +25,20 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-worker:before { content: "\f100"; }
-.flaticon-industry:before { content: "\f101"; }
-.flaticon-industrial-robot:before { content: "\f102"; }
-.flaticon-excavator:before { content: "\f103"; }
-.flaticon-gears:before { content: "\f104"; }
-.flaticon-agreement:before { content: "\f105"; }
-.flaticon-planet-earth:before { content: "\f106"; }
+.flaticon-bar-chart:before { content: "\f100"; }
+.flaticon-piggy-bank:before { content: "\f101"; }
+.flaticon-headphone:before { content: "\f102"; }
+.flaticon-rocket:before { content: "\f103"; }
+.flaticon-creative-design:before { content: "\f104"; }
+.flaticon-bullhorn:before { content: "\f105"; }
+.flaticon-design:before { content: "\f106"; }
+.flaticon-web-programming:before { content: "\f107"; }
+.flaticon-branding:before { content: "\f108"; }
+.flaticon-vector:before { content: "\f109"; }
+.flaticon-email-marketing:before { content: "\f10a"; }
+.flaticon-3d-design:before { content: "\f10b"; }
